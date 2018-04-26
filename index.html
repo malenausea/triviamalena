@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Trivia Challenge</title>
+<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Bienvenid@ al Trivia Challenge <span id='nickName'></span> !! </h1>
+<p>Marca la respuesta que creas correcta, por cada pregunta correcta te sumaré un punto
+  y por cada incorrecta te restaré medio punto, Let The Challenge Begin!!!! Good Luck!!</p>
+<img src="http://calendarnorth.com/images/uploads/content/_poster/trivia-pubbb.png" alt="trivia">
+
+<script type="text/javascript" src="app.js">
+  </script>
+
+  <FORM name="Preguntas">
+
+  <h2>1.- Qué color se produce si combinas rojo y azul?  </h2>
+
+
+  <p>
+    <input type="radio" name="pregunta1" id="p11" value="A" /> Morado  </p> <p>
+    <input type="radio" name="pregunta1" id="p12" value="B" /> Amarillo  </p> <p>
+    <input type="radio" name="pregunta1" id="p13" value="C" /> Verde  </p> <p>
+    <input type="radio" name="pregunta1" id="p14" value="D" /> Negro  </p>
+
+  <h2>2.- A cuánto equivale el número irracional pi?  </h2>
+
+  <p>
+    <input type="radio" name="pregunta2"  id="p21" value="A" /> 3.141  </p> <p>
+    <input type="radio" name="pregunta2"  id="p22" value="B" /> 2.321  </p> <p>
+    <input type="radio" name="pregunta2"  id="p23" value="C" /> 4.161  </p> <p>
+    <input type="radio" name="pregunta2"  id="p24" value="D" /> 3.123  </p>
+
+   <h2>3.- Cuál es la capital de Canadá?   </h2>
+
+  <p>
+    <input type="radio" name="pregunta3"  id="p31" value="A" /> Ottawa  </p> <p>
+    <input type="radio" name="pregunta3"  id="p32" value="B" /> Toronto  </p> <p>
+    <input type="radio" name="pregunta3"  id="p33" value="C" /> Montreal </p> <p>
+    <input type="radio" name="pregunta3"  id="p34" value="D" /> Kingstom  </p>
+    <p></p>
+
+
+   </FORM>
+
+
+   <FORM name="boton">
+   <input type="button"  name="boton" value=" VER RESULTADOS "  onclick="corregir()"/>
+   </FORM>
+   <br><br>
+
+<b>RESULTADO DEL TEST</b> <P>
+<form name="resultado" action="">
+
+Has acertado <input type="text" size="3" name="aciertos" value="" id="aciertos"/> preguntas <br>
+Has fallado en <input type="text" size="3" name="fallos" value="" id="fallos"/> preguntas <br>
+Has dejado de responder <input size="3" name="blancos" type="text"  value="" id="blancos"/> preguntas <P>
+PUNTUACIÓN: <input type="text" size="5" name="puntuacion" value="" id="puntuacion"/> puntos
+
+</form>
+
+   </body>
+</html>

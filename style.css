@@ -1,0 +1,9 @@
+body{
+  background-image:url("https://www.pubquizchampionships.com.au/wp-content/uploads/2018/01/triviawallpaper.jpg");
+}
+
+h2 {
+  color: blue;
+  background-color: silver;
+  border: 1px solid blue;
+}
